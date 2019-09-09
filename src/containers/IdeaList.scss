@@ -1,0 +1,41 @@
+@import '../styles/colours';
+
+.idea-container {
+    .idea-menu {
+      margin: 20px 0;
+    }
+    .idea-sort {
+      display: inline-block;
+      flex-wrap: wrap;
+      vertical-align: bottom;
+      margin: 0 8px;
+
+      &__input {
+        position: relative;
+        background-color: white;
+        border: 1px solid #ced4da;
+        width: 200px;
+        font-size: 14px;
+        padding: 4px;
+        border-radius: 3px;
+      }
+    }
+
+    .idea-add {
+      display: inline-block;
+      background: $focus;
+      margin: 0 8px;
+      line-height: normal;
+      color: white;
+      font-weight: bold;
+      font-size: 14px;
+      padding: 10px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    .idea-list {
+      background: $background;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }

@@ -1,0 +1,15 @@
+@import '../styles/colours';
+
+.textarea__counter {
+    color: $alert;
+    font-size: 9px;
+    background: white;
+  }
+
+  textarea + .textarea__counter {
+    display: none;
+  }
+
+  textarea:focus + .textarea__counter {
+    display: block;
+  }
