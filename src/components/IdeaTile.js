@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './IdeaTile.scss';
 import IdeaDescriptionArea from './IdeaDescriptionArea';
-import 'font-awesome/css/font-awesome.min.css';
+import 'font-awesome/scss/font-awesome.scss';
 
 export default class IdeaTile extends React.Component {
   static propTypes = {
