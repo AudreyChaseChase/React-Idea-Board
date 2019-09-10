@@ -1,22 +1,28 @@
-# ClearScore FED Test
+## ClearScore FED Test
 
-## Demo
+### Demo
 
 Link: https://audreychasechase.github.io/react-idea-board/
 
-## Getting started
-`yarn start` will run a development server on `http://localhost:3000`.  
-
-## Built With
+### Built With
 
 * React/Redux
 * Jest + Enzyme
 * Material-UI
+* Webpack & Babel
 
-## Running the tests
+### Getting started
+
+`yarn start` will run a development server on `http://localhost:3000`.  
+
+### Running the tests
 
 `yarn test` will run the suite of tests created.
 
-## Note
+### Running the build
+
+`yarn build` will run the build with Webpack and Babel.
+
+### Note
 
 See the [COMMENTS.md](COMMENTS.md) file for more details
